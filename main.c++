@@ -916,6 +916,9 @@ cout << "Gajar ka Halwa. : " << endl;
 cout << "Kheer/ Feerni RS: " << endl;
 cout << "3 family bowl of icecream. " << endl;
 sweet();
+
+
+
 break;
 case 5:
 cout << "Roti" << endl;
@@ -924,18 +927,7 @@ cout << "Salad" << endl;
 cout << "Cold drink" << endl;
 beverages();
 break;
-default:
-cout << "\nYou Enter Wrong Character" << endl;
-cout << "\n**PLEASE TRY AGAIN**";
-}
-} while (open > 5);
-cout << "\nDo You Want To Add More?" << endl;
-cout << "Press 1 To Add 'OR' Press 0 To Exit" << endl;
-cin >> i;
-net = chargeb + chargef + chargep + charges + s + j + k + m + n + o + p + q + r + t + d1 
-+ d2 + d3 + d4 + d5 + d6 + s1 + s2 + s3 + s4 + b1 + b2 + b3 + b4;
-} while (i == 1);
-cout << "\nYour Net Amount Is => " << net << "Rs."<< endl;
-cout << "***THANK YOU FOR ORDERING***" << endl;
-cout << "***PLEASE COME AGAIN***" << endl;
-}
+
+
+
+
